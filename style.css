@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #fdbb2e;
+    
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.top-image{
+    border: 10px solid wheat;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.contact-btn{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    color: white;
+}
+
+@media (max-height:568px){
+    .contact-btn{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        margin-left: 2px;
+        cursor: pointer;
+    }
+}
+.about-name{
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.name-highlight{
+    text-decoration: underline;
+    text-decoration-color: #fdbb2e;
+    font-weight: 700;
+}
+
+.what-i-do{
+    background-color: rgb(236, 236, 236);
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.add-highlighter{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.icon-set{
+    font-size: 60px;
+    color: #fdbb2e;
+}
+
+/*-----------resume---*/
+
+.resume-2{
+    padding: 20px 0;
+}
+
+.education{
+    padding: 10px 10px;
+}
+
+.left-border{
+    border-left: 2px solid #fdbb2e;
+}
+
+
+/*-------progressbar-----*/
+
+.skills{
+    margin: 30px 0;
+    margin: 0 auto;
+}
+
+.progress-item{
+    margin-bottom: 25px;
+    margin-left: 45px;
+}
+
+.progress-bar{
+    background-color: #fdbb2e;
+}
+
+.dwn-btn{
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    
+}
+
+/*-----hire me section------*/
+
+.hire-me{
+    background-image: linear-gradient(to right, rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/work-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: bottom;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+.hire-btn{
+    color: white;
+    background-color: #fdbb2e;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.client-comment{
+    text-align: center;
+    margin: 40px 0;
+    background-color: lightgray;
+    padding: 30px 0;
+}
+
+.carousel-item p{
+    padding: 20px 300px;
+
+}
+.carousel-item img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.contact{
+    background-color: #fdbb2e;
+    padding: 70px 0;
+    margin-top: 100px;
+}
+
+.cn-icon{
+    font-size: 40px;
+    margin-left: 20px;
+    color: dimgray;
+}
+
+input[name=name],[name=email],[name=textarea]
+{
+border: 0;
+border-bottom: 1px solid rgb(136, 136, 136);
+outline: 0;
+background-color: #fdbb2e;
+margin-bottom: 20px;
+}
+
+.ft-btn{
+    color: white;
+    background-color: #000000;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    padding: 40px 20px;
+    color: #868686;
+}
