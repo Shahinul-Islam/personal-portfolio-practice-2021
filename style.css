@@ -5,6 +5,22 @@
     scroll-behavior: smooth;
 }
 
+
+.navbar-collapse{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+.nav-link{
+    color: #030000!important;
+}
+.nav-link:hover{
+    color: #ffffff!important;
+    font-weight: 700;
+}
+
+
 .navbar{
     background-color: #fdbb2e;
     
